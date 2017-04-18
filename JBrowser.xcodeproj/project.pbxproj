@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52686DA01E97B6E2001239BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686D9F1E97B6E2001239BD /* main.m */; };
+		52686DA31E97B6E3001239BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686DA21E97B6E3001239BD /* AppDelegate.m */; };
+		52686DA61E97B6E3001239BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686DA51E97B6E3001239BD /* ViewController.m */; };
+		52686DA91E97B6E3001239BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52686DA71E97B6E3001239BD /* Main.storyboard */; };
+		52686DAB1E97B6E4001239BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52686DAA1E97B6E4001239BD /* Assets.xcassets */; };
+		52686DAE1E97B6E4001239BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52686DAC1E97B6E4001239BD /* LaunchScreen.storyboard */; };
+		52686DB91E97B6E4001239BD /* JBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686DB81E97B6E4001239BD /* JBrowserTests.m */; };
+		52686DC41E97B6E4001239BD /* JBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52686DC31E97B6E4001239BD /* JBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52686DB51E97B6E4001239BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52686D931E97B6E0001239BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52686D9A1E97B6E2001239BD;
+			remoteInfo = JBrowser;
+		};
+		52686DC01E97B6E4001239BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52686D931E97B6E0001239BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52686D9A1E97B6E2001239BD;
+			remoteInfo = JBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52686D9B1E97B6E2001239BD /* JBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52686D9F1E97B6E2001239BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52686DA11E97B6E2001239BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52686DA21E97B6E3001239BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52686DA41E97B6E3001239BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52686DA51E97B6E3001239BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52686DA81E97B6E3001239BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52686DAA1E97B6E4001239BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52686DAD1E97B6E4001239BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52686DAF1E97B6E4001239BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52686DB41E97B6E4001239BD /* JBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52686DB81E97B6E4001239BD /* JBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBrowserTests.m; sourceTree = "<group>"; };
+		52686DBA1E97B6E4001239BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52686DBF1E97B6E4001239BD /* JBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52686DC31E97B6E4001239BD /* JBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBrowserUITests.m; sourceTree = "<group>"; };
+		52686DC51E97B6E4001239BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52686D981E97B6E2001239BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DB11E97B6E4001239BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DBC1E97B6E4001239BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52686D921E97B6DF001239BD = {
+			isa = PBXGroup;
+			children = (
+				52686D9D1E97B6E2001239BD /* JBrowser */,
+				52686DB71E97B6E4001239BD /* JBrowserTests */,
+				52686DC21E97B6E4001239BD /* JBrowserUITests */,
+				52686D9C1E97B6E2001239BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52686D9C1E97B6E2001239BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52686D9B1E97B6E2001239BD /* JBrowser.app */,
+				52686DB41E97B6E4001239BD /* JBrowserTests.xctest */,
+				52686DBF1E97B6E4001239BD /* JBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52686D9D1E97B6E2001239BD /* JBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				52686DA11E97B6E2001239BD /* AppDelegate.h */,
+				52686DA21E97B6E3001239BD /* AppDelegate.m */,
+				52686DA41E97B6E3001239BD /* ViewController.h */,
+				52686DA51E97B6E3001239BD /* ViewController.m */,
+				52686DA71E97B6E3001239BD /* Main.storyboard */,
+				52686DAA1E97B6E4001239BD /* Assets.xcassets */,
+				52686DAC1E97B6E4001239BD /* LaunchScreen.storyboard */,
+				52686DAF1E97B6E4001239BD /* Info.plist */,
+				52686D9E1E97B6E2001239BD /* Supporting Files */,
+			);
+			path = JBrowser;
+			sourceTree = "<group>";
+		};
+		52686D9E1E97B6E2001239BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52686D9F1E97B6E2001239BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52686DB71E97B6E4001239BD /* JBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				52686DB81E97B6E4001239BD /* JBrowserTests.m */,
+				52686DBA1E97B6E4001239BD /* Info.plist */,
+			);
+			path = JBrowserTests;
+			sourceTree = "<group>";
+		};
+		52686DC21E97B6E4001239BD /* JBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52686DC31E97B6E4001239BD /* JBrowserUITests.m */,
+				52686DC51E97B6E4001239BD /* Info.plist */,
+			);
+			path = JBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52686D9A1E97B6E2001239BD /* JBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52686DC81E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowser" */;
+			buildPhases = (
+				52686D971E97B6E2001239BD /* Sources */,
+				52686D981E97B6E2001239BD /* Frameworks */,
+				52686D991E97B6E2001239BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBrowser;
+			productName = JBrowser;
+			productReference = 52686D9B1E97B6E2001239BD /* JBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52686DB31E97B6E4001239BD /* JBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52686DCB1E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowserTests" */;
+			buildPhases = (
+				52686DB01E97B6E4001239BD /* Sources */,
+				52686DB11E97B6E4001239BD /* Frameworks */,
+				52686DB21E97B6E4001239BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52686DB61E97B6E4001239BD /* PBXTargetDependency */,
+			);
+			name = JBrowserTests;
+			productName = JBrowserTests;
+			productReference = 52686DB41E97B6E4001239BD /* JBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52686DBE1E97B6E4001239BD /* JBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52686DCE1E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowserUITests" */;
+			buildPhases = (
+				52686DBB1E97B6E4001239BD /* Sources */,
+				52686DBC1E97B6E4001239BD /* Frameworks */,
+				52686DBD1E97B6E4001239BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52686DC11E97B6E4001239BD /* PBXTargetDependency */,
+			);
+			name = JBrowserUITests;
+			productName = JBrowserUITests;
+			productReference = 52686DBF1E97B6E4001239BD /* JBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52686D931E97B6E0001239BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NeoRays;
+				TargetAttributes = {
+					52686D9A1E97B6E2001239BD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					52686DB31E97B6E4001239BD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52686D9A1E97B6E2001239BD;
+					};
+					52686DBE1E97B6E4001239BD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52686D9A1E97B6E2001239BD;
+					};
+				};
+			};
+			buildConfigurationList = 52686D961E97B6E1001239BD /* Build configuration list for PBXProject "JBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52686D921E97B6DF001239BD;
+			productRefGroup = 52686D9C1E97B6E2001239BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52686D9A1E97B6E2001239BD /* JBrowser */,
+				52686DB31E97B6E4001239BD /* JBrowserTests */,
+				52686DBE1E97B6E4001239BD /* JBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52686D991E97B6E2001239BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52686DAE1E97B6E4001239BD /* LaunchScreen.storyboard in Resources */,
+				52686DAB1E97B6E4001239BD /* Assets.xcassets in Resources */,
+				52686DA91E97B6E3001239BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DB21E97B6E4001239BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DBD1E97B6E4001239BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52686D971E97B6E2001239BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52686DA61E97B6E3001239BD /* ViewController.m in Sources */,
+				52686DA31E97B6E3001239BD /* AppDelegate.m in Sources */,
+				52686DA01E97B6E2001239BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DB01E97B6E4001239BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52686DB91E97B6E4001239BD /* JBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52686DBB1E97B6E4001239BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52686DC41E97B6E4001239BD /* JBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52686DB61E97B6E4001239BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52686D9A1E97B6E2001239BD /* JBrowser */;
+			targetProxy = 52686DB51E97B6E4001239BD /* PBXContainerItemProxy */;
+		};
+		52686DC11E97B6E4001239BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52686D9A1E97B6E2001239BD /* JBrowser */;
+			targetProxy = 52686DC01E97B6E4001239BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52686DA71E97B6E3001239BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52686DA81E97B6E3001239BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52686DAC1E97B6E4001239BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52686DAD1E97B6E4001239BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52686DC61E97B6E4001239BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52686DC71E97B6E4001239BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52686DC91E97B6E4001239BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52686DCA1E97B6E4001239BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52686DCC1E97B6E4001239BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBrowser.app/JBrowser";
+			};
+			name = Debug;
+		};
+		52686DCD1E97B6E4001239BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBrowser.app/JBrowser";
+			};
+			name = Release;
+		};
+		52686DCF1E97B6E4001239BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JBrowser;
+			};
+			name = Debug;
+		};
+		52686DD01E97B6E4001239BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.JBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52686D961E97B6E1001239BD /* Build configuration list for PBXProject "JBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52686DC61E97B6E4001239BD /* Debug */,
+				52686DC71E97B6E4001239BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52686DC81E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52686DC91E97B6E4001239BD /* Debug */,
+				52686DCA1E97B6E4001239BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52686DCB1E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52686DCC1E97B6E4001239BD /* Debug */,
+				52686DCD1E97B6E4001239BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52686DCE1E97B6E4001239BD /* Build configuration list for PBXNativeTarget "JBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52686DCF1E97B6E4001239BD /* Debug */,
+				52686DD01E97B6E4001239BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52686D931E97B6E0001239BD /* Project object */;
+}
